@@ -74,7 +74,7 @@
         /// <response code="404">The order does not exist.</response>
         [HttpPatch( "{id:int}" )]
         [Produces( "application/json" )]
-        [Consumes( "application/merge-patch+json" )]
+        [Consumes( "application/json" )]
         [ProducesResponseType( 204 )]
         [ProducesResponseType( 400 )]
         [ProducesResponseType( 404 )]
